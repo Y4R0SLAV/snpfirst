@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./index.css">
+  <title>Document</title>
+</head>
+<body>
+  <header class="header">
+    <div class="header__wrapper">
+      <div class="header__container _container">
+        <nav class="header__nav nav-header">
+          <div class="nav__logo">
+            <img class="nav__logo-img" src="./assets/icons/logo.png" alt="">
+          </div>
+          
+          <div class="nav__btns">
+            <div class="nav__btn"> Туры </div>
+            <div class="nav__btn"> Создать тур </div>
+            <div class="nav__btn"> Отзывы </div>
+            <div class="nav__btn"> Истории </div>
+          </div>
+
+          <div class="nav__number">
+            +7 999 999 99 99
+          </div>
+        </ul>
+      </nav>
+      </div>
+    </div>
+  </header>
+  
+  <div class="wrapper">
+    <div class="welcome">
+        <h1 class="welcome__h welcome__item">Идеальные путешествия существуют</h1>
+        <p class="welcome__p welcome__item">Идейные соображения высшего порядка, а также рамки и место обучения кадров</p>
+        <div class="welcome__btn welcome__item">
+          Найти тур
+        </div>
+    </div>
+
+    <div class="choose">
+      <div class="choose__container _container">
+        <div class="choose_content">
+          <div class="choose__title _title">
+            Выбери свой тур
+          </div>
+          <div class="choose__list list-choose">
+            <div class="list__item active">
+              Популярные
+            </div>
+            <div class="list__item">
+              Авторские
+            </div>
+            <div class="list__item">
+              Походы
+            </div>
+            <div class="list__item">
+              Сплавы
+            </div>
+            <div class="list__item">
+              Велопрогулки
+            </div>
+          </div>
+          <div class="choose__items">
+            <!-- 1 -->
+            <div class="choose__item item1">
+              <div class="item__info">
+                <div class="item__title">
+                  Путешествие в горы
+                </div>
+                <div class="item__price">
+                  от 80 000 руб
+                </div>
+              </div>
+
+              <div class="item__details">
+                Подробнее
+                <div class="item__img">
+                  <img src="./assets/icons/arrow.png" alt="">
+                </div>
+              </div>
+            </div>
+
+            <!-- 2 -->
+            <div class="choose__item item2">
+              <div class="item__info">
+                <div class="item__title">
+                  Путешествие в горы
+                </div>
+                <div class="item__price">
+                  от 80 000 руб
+                </div>
+              </div>
+              <div class="item__details">
+                Подробнее
+                <div class="item__img">
+                  <img src="./assets/icons/arrow.png" alt="">
+                </div>
+              </div>
+            </div>
+
+            <!-- 3 -->
+            <div class="choose__item item3">
+              <div class="item__info">
+                <div class="item__title">
+                  Путешествие в горы
+                </div>
+                <div class="item__price">
+                  от 80 000 руб
+                </div>
+              </div>
+              <div class="item__details">
+                Подробнее
+                <div class="item__img">
+                  <img src="./assets/icons/arrow.png" alt="">
+                </div>
+              </div>
+            </div>
+
+            <!-- 4 -->
+            <div class="choose__item item4">
+              <div class="item__info">
+                <div class="item__title">
+                  Путешествие в горы
+                </div>
+                <div class="item__price">
+                  от 80 000 руб
+                </div>
+              </div>
+              <div class="item__details">
+                Подробнее
+                <div class="item__img">
+                  <img src="./assets/icons/arrow.png" alt="">
+                </div>
+              </div>
+            </div>
+
+            <!-- 5 -->
+            <div class="choose__item item5">
+              <div class="item__info">
+                <div class="item__title">
+                  Путешествие в горы
+                </div>
+                <div class="item__price">
+                  от 80 000 руб
+                </div>
+              </div>
+              <div class="item__details">
+                Подробнее
+                <div class="item__img">
+                  <img src="./assets/icons/arrow.png" alt="">
+                </div>
+              </div>
+            </div>
+
+            <!-- 6 -->
+            <div class="choose__item item6">
+              <div class="item__info">
+                <div class="item__title">
+                  Путешествие в горы
+                </div>
+                <div class="item__price">
+                  от 80 000 руб
+                </div>
+              </div>
+              <div class="item__details">
+                Подробнее
+                <div class="item__img">
+                  <img src="./assets/icons/arrow.png" alt="">
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="pack">
+      <div class="pack__container _container">
+        <div class="pack__content">
+          <div class="pack__title _title"> Собери свой тур </div>
+          <div class="pack__subtitle _subtitle subtitle-fool"> Идейные соображения высшего порядка, а также рамки и место обучения кадров </div>
+
+          <div class="form">
+            <form action="">
+              <div class="form__control">
+                <label for="username"> Имя </label>
+                <input type="text" id="username" placeholder="Введите Ваше имя" required>
+                
+              </div>
+
+              <div class="form__control direction-form">
+                <label for="direction"> Направление </label>
+                <select name="role" id="direction" required aria-placeholder="ЖОПА">
+                  <option value="" selected disabled hidden > Куда хотите ехать </option>
+                  <option value="Kazakhstan">Казахстан</option>
+                  <option value="Costa-Rica">Коста-Рика</option>
+                </select>
+              </div>
+
+              <div class="form__control">
+                <label for="email"> Email </label>
+                <input type="email" id="email" placeholder="example@mail.com" required/>
+              </div>
+
+              <div class="form__control">
+                <label for="number"> Телефон </label>
+                <input 
+                  type="tel" id="number" 
+                  placeholder="+ 7 ( _ _ _ ) _ _ _ - _ _ - _ _"  
+                  required class="form__number"/>
+              </div>
+
+              <!-- чтобы плейсхолдер было видно изначально тип текст а при нажатии чтобы был выбор из дат меняю на дату -->
+              <div class="form__control">
+                <label for="date-from"> Дата от </label>
+                <input id="date-from" type="text" placeholder="ДД.ММ.ГГГГ" required
+                  onfocus="(this.type='date')" onblur="(this.type='text')"/>
+              </div>
+
+              <div class="form__control">
+                <label for="date-to"> Дата до </label>
+                <input  id="date-to" type="text" placeholder="ДД.ММ.ГГГГ"  required
+                  onfocus="(this.type='date')" onblur="(this.type='text')"/> 
+              </div>
+
+              <div class="form__control comment-block">
+                <label for="comment"> Комментарий </label>
+                <textarea  name="comment" id="comment" cols="30" rows="10"></textarea>
+              </div>
+
+              <div class="form__control radio-block">
+                <label> Вам есть 18 лет? </label>
+
+                
+                <div class="form__choices">
+                  <label> Да <input  type="radio"  
+                          name="eighteen" required />
+                  <span class="fakeradio"></span>
+                  </label>
+
+                  <label > Нет <input  type="radio" 
+                          name="eighteen" />
+                  <span class="fakeradio"></span>
+                  </label>
+                </div>
+
+              </div>
+
+              <div class="form-control checkbox-block">
+                <label>
+                  <input type="checkbox" name="inp" required /> <span class="fakebox"></span>
+                </label>
+
+                <p class="fakebox__text">
+                  Нажимая кнопку, я принимаю условия <span class="form__license" >Лицензионного договора</span> 
+                </p>
+                
+                
+              </div>
+
+              <div class="form-control control-buttons">
+                <div class="form__buttons">
+                  <button type="submit" class="form__button sub-button"> Найти тур </button>
+                  <button type="reset" class="form__button res-button"> Сбросить</button>
+                </div>
+                
+              </div>
+
+
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="reviews">
+      <div class="reviews__container _container">
+        <div class="reviews__content">
+          <div class="reviews__title _title">
+            Отзывы наших путешественников
+          </div>
+          <div class="reviews__subtitle _subtitle">
+            Идейные соображения высшего порядка, а также рамки и место обучения кадров
+          </div>
+
+          <div class="reviews__items">
+
+            <div class="reviews__item rewiew">
+              <div class="review__text">
+                Идейные соображения высшего порядка, а также рамки и место обучения кадров обеспечивает широкому кругу (специалистов) участие в формировании новых предложений. Идейные соображения высшего порядка, а также начало повседневной работы по формированию позиции позволяет оценить значение модели развития.
+              </div>
+              <div class="review__person">
+                <div class="review__info">
+                  <div class="review__name">Мария</div>
+                  <div class="review__to">Тур: Вдали от дома</div>
+                </div>
+                <div class="review__photo">
+                  <img src="/assets/photos/review photo-1.jpg" alt="">
+                </div>
+              </div>
+            </div>
+
+            <div class="reviews__item rewiew">
+              <div class="review__text">
+                Равным образом постоянный количественный рост и сфера нашей активности играет важную роль в формировании системы обучения кадров, соответствует насущным потребностям.
+                <br/><br/>
+                Значимость этих проблем настолько очевидна, что дальнейшее развитие различных форм деятельности обеспечивает широкому кругу (специалистов) участие в формировании новых предложений. Повседневная практика показывает, что реализация намеченных плановых заданий в значительной степени обуславливает создание модели развития.
+              </div>
+              <div class="review__person">
+                <div class="review__info">
+                  <div class="review__name">Павел</div>
+                  <div class="review__to">Тур: Путешествие в горы</div>
+                </div>
+                <div class="review__photo">
+                  <img src="/assets/photos/review photo-2.jpg" alt="">
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="photos">
+      <div class="photos__content">
+        <div class="photos__title _title">Фотографии путешествий</div>
+        <div class="photos__subtitle _subtitle"> Идейные соображения высшего порядка, а также рамки и место обучения кадров </div>
+
+        <div class="photos__items">
+          <div class="photos__row row1">
+            <div class="photo__item photo1"> </div>
+            <div class="photo__item photo2"> </div>
+            <div class="photo__item photo3"> </div>
+            <div class="photo__item photo4"> </div>
+          </div> 
+
+          <div class="photos__row row2">
+            <div class="photo__item photo5"> </div>
+            <div class="photo__item photo6"> </div>
+            <div class="photo__item photo7"> </div>
+            <div class="photo__item photo8"> </div>
+            <div class="photo__item photo9"> </div>
+          </div>
+          
+          <div class="photos__row row3">
+            <div class="photo__item photo10"> </div>
+            <div class="photo__item photo11"> </div>
+            <div class="photo__item photo12"> </div>
+            <div class="photo__item photo13"> </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="stories">
+      <div class="stories__container _container">
+        <div class="stories_content">
+          <div class="stories__title _title">
+            Истории путешествий
+          </div>
+
+          <div class="stories__subtitle _subtitle">
+            Идейные соображения высшего порядка, а также рамки и место обучения кадров
+          </div>
+
+          <div class="stories__items">
+            <!-- 1 -->
+            <div class="stories__item story1">
+              <div class="item__info">
+                <div class="item__title">
+                  Автостопом в Стамбул
+                </div>
+                <div class="item__price">
+                  Идейные соображения высшего порядка, а также рамки и место обучения кадров обеспечивает широкому кругу (специалистов) участие в формировании новых предложений:
+                <br /> <br/>
+                <ul class="item__ul">
+                  <li><span class="item__span">вкусная еда</span> </li>
+                  <li><span class="item__span">дешевый транспорт</span> </li>
+                  <li><span class="item__span">красивый город.</span></li>
+                </ul>
+                </div>
+              </div>
+
+              <div class="item__detNlinks">
+                <div class="item__details">
+                  Подробнее
+                  <div class="item__img">
+                    <img src="./assets/icons/arrow.png" alt="">
+                  </div>
+                </div>
+                <div class="item__links">
+                  <div class="item__link">instagram</div>
+                  <div class="item__link">facebook</div>
+                  <div class="item__link">YouTube</div>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- 2 -->
+            <div class="stories__item story2">
+              <div class="item__info">
+                <div class="item__title">
+                  Автостопом в Стамбул
+                </div>
+                <div class="item__price">
+                  Идейные соображения высшего порядка, а также рамки и место обучения кадров обеспечивает широкому кругу (специалистов) участие в формировании новых предложений.
+                </div>
+              </div>
+
+              <div class="item__detNlinks">
+                <div class="item__details">
+                  Подробнее
+                  <div class="item__img">
+                    <img src="./assets/icons/arrow.png" alt="">
+                  </div>
+                </div>
+                <div class="item__links">
+                  <div class="item__link">instagram</div>
+                  <div class="item__link">ВКонтакте</div>
+                </div>
+              </div>
+
+            </div>
+            <!-- 3 -->
+            <div class="stories__item story3">
+              <div class="item__info">
+                <div class="item__title">
+                  Автостопом в Стамбул
+                </div>
+                <div class="item__price">
+                  Идейные соображения высшего порядка, а также рамки и место обучения кадров обеспечивает широкому кругу (специалистов) участие в формировании новых предложений.
+                </div>
+              </div>
+
+              <div class="item__detNlinks">
+                <div class="item__details">
+                  Подробнее
+                  <div class="item__img">
+                    <img src="./assets/icons/arrow.png" alt="">
+                  </div>
+                </div>
+                <div class="item__links">
+                  <div class="item__link">instagram</div>
+                  <div class="item__link">facebook</div>
+                  <div class="item__link">ВКонтакте</div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>  
+      </div>
+    </div>
+
+    <div class="join">
+      <div class="join__content">
+        <div class="join__img">
+          <img src="/assets/photos/footer photo.jpg" alt="">
+        </div>
+        <div class="join__info">
+          <div class="join__title">
+            Пора в путешествие вместе с нами!
+          </div>
+          <div class="join__subtitle">
+            Напиши на почту и узнай подробности на <span class="join__email">yourtour@gmail.com </span> 
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <footer class="footer">
+    <div class="footer__container _container">
+      <div class="footer__content">
+        <div class="footer__text">
+          Наши социальные сети
+        </div>
+        <div class="footer__links">
+
+          <div class="footer__item">
+            <div class="footer__icon icon-inst">
+              <img src="/assets/icons/insta.png" alt="">
+            </div>
+            <div class="footer__link link1">instagram</div>
+          </div>
+
+          <div class="footer__item">
+            <div class="footer__icon icon-fb">
+              <img src="/assets/icons/fb.png" alt="">
+            </div>
+            <div class="footer__link link2">facebook</div>
+          </div>
+
+          <div class="footer__item">
+            <div class="footer__icon icon-vk">
+              <img src="/assets/icons/vk.png" alt="">
+            </div>
+            <div class="footer__link link3">vkontakte</div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
