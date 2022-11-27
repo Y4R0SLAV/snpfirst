@@ -141,7 +141,7 @@ body {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  background: url(/assets/photos/header-img.jpg) center no-repeat;
+  background: url(/assets/photos/headerimg.jpg) center no-repeat;
   background-size: cover;
   min-height: 831px;
 }
@@ -323,7 +323,7 @@ body {
 
   background: 
     linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%),
-    url(./assets/photos/card\ tour\ photo-1.jpg) center no-repeat;
+    url(./assets/photos/cardtourphoto1.jpg) center no-repeat;
   background-size: contain;
   transition: all 300ms ease;
   top: 0;
@@ -339,7 +339,7 @@ body {
 
   background: 
     linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%),
-    url(./assets/photos/card\ tour\ photo-2.jpg) center no-repeat;
+    url(./assets/photos/cardtourphoto2.jpg) center no-repeat;
   background-size: contain;
   transition: all 300ms ease;
   top: 0;
@@ -355,7 +355,7 @@ body {
 
   background: 
     linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%),
-    url(./assets/photos/card\ tour\ photo-3.jpg) center no-repeat;
+    url(./assets/photos/cardtourphoto3.jpg) center no-repeat;
   background-size: contain;
   transition: all 300ms ease;
   top: 0;
@@ -371,7 +371,7 @@ body {
 
   background: 
     linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%),
-    url(./assets/photos/card\ tour\ photo-4.jpg) center no-repeat;
+    url(./assets/photos/cardtourphoto4.jpg) center no-repeat;
   background-size: contain;
   transition: all 300ms ease;
   top: 0;
@@ -387,7 +387,7 @@ body {
 
   background: 
     linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%),
-    url(./assets/photos/card\ tour\ photo-5.jpg) center no-repeat;
+    url(./assets/photos/cardtourphoto5.jpg) center no-repeat;
   background-size: contain;
   transition: all 300ms ease;
   top: 0;
@@ -403,7 +403,7 @@ body {
 
   background: 
     linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%),
-    url(./assets/photos/card\ tour\ photo-6.jpg) center no-repeat;
+    url(./assets/photos/cardtourphoto6.jpg) center no-repeat;
   background-size: contain;
   transition: all 300ms ease;
   top: 0;
@@ -917,7 +917,7 @@ label input:checked ~ .fakeradio:after {
 
   background: 
     linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%),
-    url(./assets/photos/story\ photo-1.jpg) center no-repeat;
+    url(./assets/photos/storyphoto1.jpg) center no-repeat;
 
   background-size: cover;
   transition: all 300ms ease;
@@ -934,7 +934,7 @@ label input:checked ~ .fakeradio:after {
 
   background: 
     linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%),
-    url(./assets/photos/story\ photo-2.jpg) center no-repeat;
+    url(./assets/photos/storyphoto2.jpg) center no-repeat;
   background-size: cover;
   transition: all 300ms ease;
   top: 0;
@@ -950,7 +950,7 @@ label input:checked ~ .fakeradio:after {
 
   background: 
     linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%),
-    url(./assets/photos/story\ photo-3.jpg) center no-repeat;
+    url(./assets/photos/storyphoto3.jpg) center no-repeat;
   background-size: cover;
   transition: all 300ms ease;
   top: 0;
@@ -1239,7 +1239,7 @@ height: 12px;
   .welcome {
     background:
     linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%),
-    url(/assets/photos/footer\ photo.jpg) center no-repeat;
+    url(/assets/photos/footerphoto.jpg) center no-repeat;
     background-size: cover;
   }
 
@@ -1513,7 +1513,7 @@ height: 12px;
   
     background: 
       linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%),
-      url(./assets/photos/story\ photo-1.jpg) bottom no-repeat;
+      url(./assets/photos/storyphoto1.jpg) bottom no-repeat;
   
     background-size: cover;
     transition: all 300ms ease;
@@ -1530,7 +1530,7 @@ height: 12px;
   
     background: 
       linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%),
-      url(./assets/photos/story\ photo-2.jpg) center no-repeat;
+      url(./assets/photos/storyphoto2.jpg) center no-repeat;
     background-size: cover;
     transition: all 300ms ease;
     top: 0;
@@ -1546,7 +1546,7 @@ height: 12px;
   
     background: 
       linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%),
-      url(./assets/photos/story\ photo-3.jpg) center no-repeat;
+      url(./assets/photos/storyphoto3.jpg) center no-repeat;
     background-size: cover;
     transition: all 300ms ease;
     top: 0;
