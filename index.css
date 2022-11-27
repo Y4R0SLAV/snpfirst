@@ -83,14 +83,6 @@ body {
   left: 0;
 } 
 
-.header__wrapper {
-  position: fixed;
-  width: 100%;
-  left: 0;
-  top: 0;
-  z-index: 999;
-}
-
 .nav-header {
   display: flex;
   align-items: center;
@@ -1828,5 +1820,22 @@ height: 12px;
   }
 }
 
+.header__wrapper-fixed {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 999;
+  background: rgba(243, 239, 232, 0.6);
+  backdrop-filter: blur(27px);
+  color: black;
+}
 
-
+.nav__logo-black {
+  filter: brightness(0) invert(6%) sepia(6%) saturate(6006%) hue-rotate(188deg) brightness(91%) contrast(85%);
+  /* залил лого цветом  #1B1F2B
+  https://codepen.io/sosuke/pen/Pjoqqp
+  вот здесь заднный цвет можно конвертировать в фильтры
+  + сначала яркость на ноль, надо на черный накладывать
+  */
+}
