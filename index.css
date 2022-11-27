@@ -71,6 +71,10 @@ body {
   padding-top: 135px;
 }
 
+.photos {
+  margin-top: -3px;
+}
+
 .header {
   color: white;
   position: absolute;
@@ -273,7 +277,6 @@ body {
   font-size: 35px;
   line-height: 122%;
   padding-bottom: 16px;
-  max-width: 123px;
 }
 
 .item__price {
@@ -802,6 +805,10 @@ label input:checked ~ .fakeradio:after {
 .photo__item {
   border-radius: 50px;
   height: 301px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
 
 .row1 .photo__item, .row3 .photo__item {
@@ -809,67 +816,20 @@ label input:checked ~ .fakeradio:after {
 }
 
 .row2 .photo__item {
-  width: 348.87px;
+  width: 349.16px;
 }
 
-.photo1 {
-  background: url(/assets/photos/travel\ photo-1.jpg);
-  background-size: cover;
+.photo__item img {
+  height: 100%;
+  flex-shrink: 0;
 }
-.photo2 {
-  background: url(/assets/photos/travel\ photo-2.jpg);
-  background-size: cover;
-}
-.photo3 {
-  background: url(/assets/photos/travel\ photo-3.jpg);
-  background-size: cover;
-}
-.photo4 {
-  background: url(/assets/photos/travel\ photo-4.jpg);
-  background-size: cover;
-}
-.photo5 {
-  background: url(/assets/photos/travel\ photo-5.jpg);
-  background-size: cover;
-}
-.photo6 {
-  background: url(/assets/photos/travel\ photo-6.jpg);
-  background-size: cover;
-}
-.photo7 {
-  background: url(/assets/photos/travel\ photo-7.jpg);
-  background-size: cover;
-}
-.photo8 {
-  background: url(/assets/photos/travel\ photo-8.png);
-  background-size: cover;
-}
-.photo9 {
-  background: url(/assets/photos/travel\ photo-9.jpg);
-  background-size: cover;
-}
-.photo10 {
-  background: url(/assets/photos/travel\ photo-10.jpg);
-  background-size: cover;
-}
-.photo11 {
-  background: url(/assets/photos/travel\ photo-11.jpg);
-  background-size: cover;
-}
-.photo12 {
-  background: url(/assets/photos/travel\ photo-12.jpg);
-  background-size: cover;
-}
-.photo13 {
-  background: url(/assets/photos/travel\ photo-13.jpg);
-  background-size: cover;
-}
+
 
 .stories__items {
   display: flex;
   flex-direction: column;  
   align-items: center;
-  gap: 60px;
+  gap: 52.5px;
 }
 
 
@@ -877,7 +837,7 @@ label input:checked ~ .fakeradio:after {
   height: 565px;
   width: 1170px;  
   border-radius: 50px;
-  padding: 60px;
+  padding: 58px 60px 60px;
   color: white;
   display: flex;
   justify-content: space-between;
@@ -901,9 +861,10 @@ label input:checked ~ .fakeradio:after {
 .item__span::before {
   position: absolute;
   content: "";
-  width: 5px;
-  height: 5px;
-  top: 50%; left: -20px;
+  width: 4.5px;
+  height: 4.5px;
+  top: 45%;
+  left: -15px;
   transform: translate(-50%,-50%);
 
   background: white;
@@ -1012,7 +973,7 @@ label input:checked ~ .fakeradio:after {
 
 .join {
   margin: 0 auto;
-  padding-bottom: 135px;
+  padding-bottom: 130px;
 }
 
 .join__content {
@@ -1036,6 +997,8 @@ label input:checked ~ .fakeradio:after {
   font-size: 35px;
   line-height: 122%;
   color: #1B1F2B;
+  position: relative;
+  top: -3px;
 }
 
 .join__subtitle {
@@ -1089,11 +1052,13 @@ label input:checked ~ .fakeradio:after {
   font-size: 20px;
   line-height: 142%;
   color: #1B1F2B;
-  gap: 19px;
+  gap: 21px;
 }
 
 .footer__item {
   display: flex;
+  position: relative;
+  bottom: -5px;
 }
 
 .footer__icon {
@@ -1104,7 +1069,10 @@ label input:checked ~ .fakeradio:after {
 
 .icon-inst {
   width: 38px;
-  height: 33px;
+  height: 38px;
+  position: relative;
+  bottom: 3.5px;
+  left: 0.5px;
 }
 
 .icon-inst img {
@@ -1112,9 +1080,18 @@ label input:checked ~ .fakeradio:after {
   height: 14px;
 }
 
+.item-fb {
+  position: relative;
+  left: 2px;
+}
+
 .icon-fb {
   width: 38px;
   height: 30px;
+
+  position: relative;
+  bottom: 0.5px;
+  left: 0.5px;
 }
 
 .icon-fb img {
