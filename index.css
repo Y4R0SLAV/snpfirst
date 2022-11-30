@@ -669,6 +669,7 @@ label input:checked ~ .fakeradio:after {
 
 .form__license:active {
   color: #286562;
+  border-bottom: 1px #286562 solid;
 }
 
 .control-buttons {
@@ -910,6 +911,7 @@ label input:checked ~ .fakeradio:after {
 
 .item__link:active {
   color: #EFA501;
+  border-bottom: 1px #EFA501 solid;
 }
 
 
@@ -1021,6 +1023,7 @@ label input:checked ~ .fakeradio:after {
 
 .join__email:active {
   color: #286562;
+  border-bottom: 1px #286562 solid;
 }
 
 .footer {
@@ -1119,6 +1122,7 @@ height: 12px;
 
 .footer__link:active {
   color: #EFA501;
+  border-bottom: 1px #EFA501 solid;
 }
 
 
