@@ -1219,7 +1219,32 @@ height: 12px;
     position: relative;
     right: 5px;
   }
+  .welcome {
+    background:
+    linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%),
+    url(assets/photos/footerphoto.jpg)  center no-repeat;
+    background-size: cover;
+    width: 100%;
+  }
 
+    
+  .story1:before {
+    background: 
+      linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%),
+      url(assets/photos/1140/stories/si1.png) center no-repeat;
+  }
+
+  .story2:before {
+    background: 
+    linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%),
+    url(assets/photos/1140/stories/si2.png) center no-repeat;
+  }
+
+  .story3:before {
+    background: 
+    linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%),
+    url(assets/photos/1140/stories/si3.png) center no-repeat;
+  }
 }
 
 @media screen and (max-width: 960px ){
@@ -1235,12 +1260,7 @@ height: 12px;
     width: 133px;
     height: 26px;
   }
-  .welcome {
-    background:
-    linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%),
-    url(assets/photos/footerphoto.jpg) center no-repeat;
-    background-size: cover;
-  }
+
 
   .choose__items {
     grid-template-columns: 1fr;
@@ -1805,6 +1825,26 @@ height: 12px;
     url(assets/photos/670/cardtour/ct6.png) center no-repeat;
   }
   
+  .story1:before {
+    background: 
+      linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%),
+      url(assets/photos/670/stories/si1.png) center no-repeat;
+      background-size: cover;
+  }
+
+  .story2:before {
+    background: 
+    linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%),
+    url(assets/photos/670/stories/si2.png) center no-repeat;
+    background-size: cover;
+  }
+
+  .story3:before {
+    background: 
+    linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%),
+    url(assets/photos/670/stories/si3.png) center no-repeat;
+    background-size: cover;
+  }
 }
 
 
@@ -1830,7 +1870,7 @@ height: 12px;
   .row2 .photo__item {
     width: 100px;
   }
-  
+
 }
 
 .header__wrapper-fixed {
