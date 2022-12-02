@@ -1871,6 +1871,11 @@ height: 12px;
     width: 100px;
   }
 
+  .nav__logo img {
+    position: relative;
+    top: 2px;left:5px;
+  }
+
 }
 
 .header__wrapper-fixed {
