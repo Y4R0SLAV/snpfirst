@@ -783,6 +783,8 @@ label input:checked ~ .fakeradio:after {
 }
 
 .photos__items {
+  max-width: 1920px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -815,8 +817,7 @@ label input:checked ~ .fakeradio:after {
 }
 
 .photo__item img {
-  max-height: 100%;
-
+  height: 100%;
 }
 
 
@@ -1130,10 +1131,12 @@ height: 12px;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 18px;
   }
+
   .choose__item {
     height: 531px;
     width: 450px;
   }
+
   .item1:before,
   .item2:before,
   .item3:before,
@@ -1157,11 +1160,13 @@ height: 12px;
 
     
   .row1 .photo__item, .row3 .photo__item {
-    width: 314.67px;
+    /* width: 314.67px; */
+    max-width: 30,76vw;
   }
   
   .row2 .photo__item {
-    max-width: 231px;
+    /* max-width: 231px; */
+    max-width: 22.56vw;
   }
 
 
@@ -1206,9 +1211,9 @@ height: 12px;
     grid-column-gap: 18px;
   }
 
-  .stories__item {
+  /* .stories__item {
     width: 918px;
-  }
+  } */
 
   .nav__btns {
     justify-content: center;
@@ -1254,7 +1259,6 @@ height: 12px;
 }
 
 @media screen and (max-width: 960px ){
-
   .nav__btns {
     display: none;
   }
@@ -1600,9 +1604,13 @@ height: 12px;
   }
 }
 
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 695px) {
   .photo3, .photo6, .photo12 {
     display: none;
+  }
+  
+  .row2 .photo__item {
+    min-width: 29.7vw;
   }
 }
 
@@ -1787,13 +1795,13 @@ height: 12px;
 
 
       
-  .row1 .photo__item, .row3 .photo__item {
+  /* .row1 .photo__item, .row3 .photo__item {
     width: 385px;
   }
   
   .row2 .photo__item {
     width: 203px;
-  }
+  } */
 
   .item1:before {
     background: 
@@ -1864,7 +1872,7 @@ height: 12px;
     justify-content: space-between;
   }
 
-  .row1 .photo__item, .row3 .photo__item {
+  .row1 .photo__item {
     width: 42.2vw;
   }
   
@@ -1873,12 +1881,14 @@ height: 12px;
   }
 
   .row2 .photo__item {
-    width: 27.7vw;
+    max-width: 27.7vw;
+    min-width: 0;
   }
 
   .nav__logo img {
     position: relative;
-    top: 2px;left:5px;
+    top: 2px;
+    left:5px;
   }
 
   .photo__item {
