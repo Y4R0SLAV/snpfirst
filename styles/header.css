@@ -1,9 +1,10 @@
 .header {
-  color: white;
   position: absolute;
-  width: 100%;
   top: 0;
   left: 0;
+
+  color: white;
+  width: 100%;
 } 
 
 .nav-header {
@@ -61,7 +62,6 @@
 .nav__btns:last-child {
   margin-right: 0;
 }
-
 
 /* классы для хедера при скроле > 450px */
 .header__wrapper-fixed {

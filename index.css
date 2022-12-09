@@ -72,12 +72,34 @@ body {
   text-align: center;
 }
 
-/* для каждого блока кроме футера у него отдельно менять надо если что */
-.reviews, .photos, .choose, .pack, .stories, .join {
+
+.reviews, .choose, .pack, .stories, .join {
   padding-top: 135px;
 }
 
-/* свойства общие для сторис и чууууз */
+.photos {
+  padding-top: 132px;
+}
+
+.photos {
+  padding-top: 130px;
+}
+
+
+/* свойства общие для сторис и чууууз (пусть здесь пока полежат) */
+.stories__item:before,
+.choose__item:before {
+  position: absolute;
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+  
+  transition: all 300ms ease;
+  top: 0;
+  left: 0;
+}
+
 .item__info {
   display: flex;
   flex-direction: column;

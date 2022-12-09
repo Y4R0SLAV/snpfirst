@@ -1,6 +1,7 @@
 /* это стиль не только форм, но и блока пак
-    но у этого блока из стилей только фул*/
-.subtitle-fool {
+    но у этого блока из стилей только фул  
+    пак вначале чтобы повысить специфичность (а сам класс чтобы букву а перенести как в макете))))*/
+.pack .subtitle-fool {
   max-width: 400px;
 }
 
@@ -10,7 +11,7 @@
   padding: 70px;
 }
 
-.form form {
+form {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 
@@ -19,13 +20,13 @@
   max-height: 986px;
 }
 
-.form form .comment-block {
+.comment-block {
   grid-column-start: 1;
   grid-column-end: 3;
 	grid-row: 4;
 }
 
-.form form .radio-block {
+.radio-block {
   grid-column-start: 1;
   grid-column-end: 3;
 	grid-row: 5;
@@ -34,7 +35,7 @@
 }
 
 
-.form form .checkbox-block {
+.checkbox-block {
   grid-column-start: 1;
   grid-column-end: 3;
 	grid-row: 6;
@@ -46,7 +47,11 @@
   color: #1B1F2B;
 }
 
-.form__control label, .form__control input, #direction, .form__button, #comment {
+.form__control label, 
+.form__control input, 
+#direction, 
+.form__button, 
+#comment {
   font-weight: 400;
   font-size: 20px;
   line-height: 142%;
@@ -56,13 +61,14 @@
   margin-bottom: 8px;
 }
 
-.form__control input, #direction, #comment {
+.form__control input, 
+#direction, 
+#comment {
   padding: 17px 19.5px 20.5px;
   border-radius: 10px;
   background: #F9F7F4;
   border: 1px solid #F4F0E9;
 }
-
 
 .form__control input:focus,
 #direction:focus,
@@ -71,7 +77,7 @@
   outline: none;
 }
 
-.form__control textarea {
+textarea {
   max-height: 152px;
 }
 
@@ -120,14 +126,12 @@
 }
 
 /* СТИЛИ ДЛЯ РАДИОГОЛОВЫ */
-
 .form__choices {
   padding: 0;
   margin: 0;
   display: flex;
   justify-content: left;
 }
-
 
 .form__choices label input[type=radio] {
   position: absolute;
@@ -306,7 +310,7 @@ label input:checked ~ .fakeradio:after {
   .form {
     padding: 60px;
   }
-  .form form {
+  form {
     grid-column-gap: 20px;
   }
 
@@ -329,18 +333,24 @@ label input:checked ~ .fakeradio:after {
     border-radius: 30px;
   }
   
-  .form form {
+  form {
     display: flex;
     flex-direction: column;
     gap: 29px;
     max-height: 100%;
   }
 
-  .form__control label, .form__control input, #direction, .form__button, #comment {
+  .form__control label, 
+  .form__control input, 
+  #direction, 
+  .form__button, 
+  #comment {
     font-size: 16px;
   }
   
-  .form__control input, #direction, #comment {
+  .form__control input, 
+  #direction, 
+  #comment {
     padding: 10px;
   }
 
@@ -425,7 +435,6 @@ label input:checked ~ .fakeradio:after {
     height: 47px;
     padding: 12px 30px;
   }
-
 }
 
 @media screen and (max-width: 680px ){ 
@@ -440,7 +449,7 @@ label input:checked ~ .fakeradio:after {
     height: 20px;
   }
 
-  .form__control textarea {
+  textarea {
     max-height: 132px;
   }
 }
