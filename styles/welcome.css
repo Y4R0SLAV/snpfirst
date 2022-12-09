@@ -1,0 +1,106 @@
+
+.welcome {
+  padding-top: 88px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: url(/../assets/photos/headerimg.jpg) center no-repeat;
+  background-size: cover;
+  min-height: 831px;
+}
+
+.welcome__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.welcome__h {
+  max-width: 768px;
+
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 109%;
+  letter-spacing: 0.02em;
+  pointer-events: none;
+}
+
+.welcome__p {
+  max-width: 600px;
+  margin: 50px 0;
+
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 142%;
+  letter-spacing: 0.02px;
+}
+
+.welcome__btn {
+  width: 118px;
+  height: 34px;
+  color: black;
+  font-size: 17px;
+  background-color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  user-select: none;
+  transition: all 300ms ease;
+}
+
+.welcome__btn:hover {
+  color: #fff;
+  background: #EFA501;
+}
+
+.welcome__btn:active {
+  color: #1B1F2B;
+  background: #F8E6BE;
+}
+
+@media screen and (max-width: 1140px ){ 
+  .welcome {
+    /* тк фото разные подгоняю под макет градиентом */
+    background:
+    linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%),
+    url(/../assets/photos/footerphoto.jpg) center no-repeat;
+    background-size: cover;
+    width: 100%;
+  }
+
+  .welcome__p {
+    max-width: 470px; 
+  }
+}
+
+@media screen and (max-width: 680px ){ 
+  .welcome {
+    padding-top: 88px;
+    min-height: 488px;
+  }
+
+  .welcome__h {  
+    font-size: 34px;
+    line-height: 112%;
+    letter-spacing: 0.02em;
+    max-width: 362px;
+    margin-top: 5px;
+  }
+
+  .welcome__p {
+    margin: 40px 0 45px;
+    max-width: 300px;
+    font-size: 16px;
+    line-height: 142%;
+  }
+
+  .welcome__btn {
+    width: 113px;
+    height: 33px;
+    font-size: 16px;
+    position: relative;
+    top: -5px;
+  }
+}
