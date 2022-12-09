@@ -43,7 +43,7 @@
   border-radius: 50%;
 }
 
-.stories__item:hover .item__details::after {
+.stories__item:hover .item__details::before {
   opacity: 1;
 }
 
@@ -170,7 +170,7 @@
     border-radius: 50%;
   }
   
-  .item__details::after {
+  .item__details::before {
     width: 150px;
     top: -9px;
     left: -15px;

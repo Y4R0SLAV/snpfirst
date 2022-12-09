@@ -130,7 +130,7 @@ body {
   z-index: 10;
 }
 
-.item__details::after {
+.item__details::before {
   transition: all 3s ease;
   content: "";
   position: absolute;
@@ -145,19 +145,21 @@ body {
   transition: opacity 300ms ease;
 }
 
-.choose__item:hover .item__details::after {
+.choose__item:hover .item__details::before {
   opacity: 1;
 }
 
-.item__img {
-  margin-left: 16px;
-}
-
-.item__img img {
+.item__details::after {
+  content: "";
+  position: absolute;
+  top: 7px;
+  left: 136px;
   filter: brightness(0) invert(1);
   width: 22px;
   height: 15px;
+  background: url(/assets/icons/arrow.png);
 }
+
 
 @media screen and (max-width: 1140px ){ 
   ._container {
@@ -191,15 +193,14 @@ body {
     letter-spacing: 0.04em;
   }
 
-  .choose__item:hover .item__details::after {
+  .choose__item:hover .item__details::before {
     opacity: 0;
     /* на телефонах ведь нельзя похаверить?? */
   } 
 
-  .item__img {
-    position: relative;
-    top: 2px;
-    left: 1px;
+  .item__details::after {
+    top: 4px;
+    left: 100px;
   }
 }
 
