@@ -77,6 +77,11 @@ body {
   padding-top: 135px;
 }
 
+/* не футеру паддинг/маргин топ  из-за заднего цвета */
+.join {
+  padding-bottom: 135px;
+}
+
 .photos {
   padding-top: 132px;
 }
@@ -223,5 +228,10 @@ body {
 
   .reviews, .photos, .choose, .pack, .stories, .join {
     padding-top: 75px;
+  }
+
+  .join {
+    padding-top: 68px;
+    padding-bottom: 75px;
   }
 }
