@@ -9,8 +9,6 @@
 
   background: url(/../assets/photos/headerimg.jpg) center no-repeat;
   background-size: cover;
-
-  color: white;
 }
 
 .welcome__item {
@@ -22,23 +20,17 @@
 
 .welcome__h {
   max-width: 768px;
-
-  font-weight: 700;
-  font-size: 96px;
-  line-height: 109%;
-  letter-spacing: 0.02em;
-  
   pointer-events: none;
 }
 
 .welcome__p {
   max-width: 600px;
   margin: 50px 0;
+}
 
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 142%;
-  letter-spacing: 0.02px;
+.welcome .welcome__h,
+.welcome .welcome__p {
+  color: white;
 }
 
 .welcome__btn {
@@ -84,10 +76,7 @@
     min-height: 488px;
   }
 
-  .welcome__h {  
-    font-size: 34px;
-    line-height: 112%;
-    letter-spacing: 0.02em;
+  .welcome__h { 
     max-width: 362px;
     margin-top: 5px;
   }
@@ -95,8 +84,6 @@
   .welcome__p {
     margin: 40px 0 45px;
     max-width: 300px;
-    font-size: 16px;
-    line-height: 142%;
   }
 
   .welcome__btn {

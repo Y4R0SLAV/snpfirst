@@ -20,27 +20,16 @@
 }
 
 .join__title {
-  font-weight: 500;
-  font-size: 35px;
-  line-height: 122%;
-  color: #1B1F2B;
   position: relative;
   top: -3px;
 }
 
-.join__subtitle {
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 142%;
+.join .join__subtitle {
   color: #A6A6A6;
   padding-top: 20px;
 }
 
 .join__email {
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 142%;
-  color: #1B1F2B;
   transition: all 0.3s ease;
   cursor: pointer;
   
@@ -74,20 +63,8 @@
     max-width: 300px;
   }
 
-  .join__title {
-    font-weight: 700;
-    font-size: 23px;
-    line-height: 120%;
-    letter-spacing: 0.05em;
-  }
-
   .join__subtitle {
-    font-size: 16px;
     padding-top: 20px;
-  }
-
-  .join__email {
-    font-size: 16px;
   }
 }
 

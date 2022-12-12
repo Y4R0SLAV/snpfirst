@@ -16,10 +16,6 @@
 
 .review__text {
   margin-bottom: 70px;
-  font-weight: 700;
-  font-size: 23px;
-  line-height: 122%;
-  color: #1B1F2B;
 }
 
 .review__person {
@@ -35,23 +31,14 @@
   justify-content: space-between;
 }
 
-.review__name {
-  font-weight: 500;
-  font-size: 35px;
-  line-height: 122%;
-  
+.review__name {  
   position: relative;
   top: -4px;
 }
 
-.review__to {
-  font-weight: 400;
-  font-size: 17px;
-  line-height: 142%;
-  letter-spacing: -0.01em;
-  
+.review__info .review__to {  
   color: #A6A6A6;
-  
+
   padding-top: 5px;
 }
 
@@ -107,17 +94,5 @@
 
   .review__text {
     margin-bottom: 40px;
-    font-size: 16px;
-    line-height: 142%;
-  }
-
-  .review__name {
-    font-weight: 700;
-    font-size: 23px;
-    line-height: 120%;
-  }
-
-  .review__to {
-    font-size: 16px;
   }
 }

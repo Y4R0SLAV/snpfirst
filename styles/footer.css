@@ -10,18 +10,11 @@
 }
 
 .footer__text {
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 142%;
   color: #A6A6A6;
 }
 
 .footer__links {
   display: flex;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 142%;
-  color: #1B1F2B;
   gap: 21px;
 }
 
@@ -87,12 +80,7 @@
     gap: 7px;
   }
   
-  .footer__text {
-    font-size: 16px;
-  }
-  
   .footer__links {
-    font-size: 16px;
     gap: 14px;
     position: relative;
     top: -4px;
